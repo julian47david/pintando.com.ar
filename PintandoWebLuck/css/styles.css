@@ -1,0 +1,47 @@
+/* nabvar */
+.navbarra {
+    margin-top: 0.5em;
+    padding: 1.5em;
+    background-image: linear-gradient(to left,#0d7e27,#22262b,#22262b,#22262b);
+}
+.contacto{
+    font-size: 25px;
+    color: white;
+    background-color: #00000000;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+
+    transition: 0.6s;
+}
+.contacto:hover {
+    background-color: #22262b;
+    text-decoration: none;
+    color: white;
+}
+#gmail{
+    width: 1.1em;
+    
+}
+
+/* navbar */
+
+/* .contacto{
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(to left,#28a745,#00943200,#58b939e0
+    );
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+
+    background-size: 200%;
+    transition: 0.6s;
+}
+.contacto:hover {
+    background-position: right;
+    text-decoration: none;
+    color: white;
+} */
