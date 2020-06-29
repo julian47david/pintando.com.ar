@@ -1,20 +1,72 @@
 /* nabvar */
 .navbarra {
-    margin-top: 0.5em;
     padding: 1.5em;
     background-image: linear-gradient(to left,#0d7e27,#22262b,#22262b,#22262b);
 }
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+.titulo{
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.boton{
+    margin: 1em;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+.boton:active{
+    text-decoration: none;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+    border-style: solid;
+    transform: scale(.9);
+}
+
+@keyframes miAnimacion{
+    0%{
+        background-color: #0a661f;
+        /* background-image: linear-gradient(to left,#0d7e27,#22262b,#22262b); */
+    }
+    50%{
+        background-color: #22262b;
+        /* background-image: linear-gradient(to left,#22262b,#0d7e27,#22262b); */
+    }
+    100%{
+        background-color: #0a661f;
+        /* background-image: linear-gradient(to left,#22262b,#22262b,#0d7e27,); */
+    }
+    
+    
+}
 .contacto{
     font-size: 25px;
+    padding: 1em;
     color: white;
     background-color: #00000000;
-    border-width: 1px;
-    border-color: white;
+    border: 1.5px solid white;
     border-radius: 5px;
     text-decoration: none;
-    padding: 0.5em 1em;
-
     transition: 0.6s;
+    animation: miAnimacion 2s infinite;
 }
 .contacto:hover {
     background-color: #22262b;
@@ -26,22 +78,7 @@
     
 }
 
-/* navbar */
-
-/* .contacto{
-    font-size: 25px;
-    color: white;
-    background-image: linear-gradient(to left,#28a745,#00943200,#58b939e0
-    );
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 0.5em 1em;
-
-    background-size: 200%;
-    transition: 0.6s;
+/* Slider */
+.slide{
+    margin-top: 5rem;
 }
-.contacto:hover {
-    background-position: right;
-    text-decoration: none;
-    color: white;
-} */
