@@ -1,7 +1,7 @@
 /* nabvar */
 .navbarra {
     padding: 1.5em;
-    background-image: linear-gradient(to left,#0d7e27,#22262b,#22262b,#22262b);
+    background-color: #22262b;
 }
 .navbar-toggler {
     padding: .25rem .75rem;
@@ -80,5 +80,15 @@
 
 /* Slider */
 .slide{
-    margin-top: 5rem;
+    margin-top: 100px;
+}
+
+.titulo2{
+    font-size: 40px;
+}
+.parrafo{
+    font-size: 20px;
+}
+.footer{
+    background-color: #22262b;
 }
